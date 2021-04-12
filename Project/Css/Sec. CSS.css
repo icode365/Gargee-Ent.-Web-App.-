@@ -1,266 +1,251 @@
-a{
-    font-size: 20px;
+a {
+  font-size: 20px;
 }
 
-.feedback-btn{
-height: 35px;
-    width: 110px;
-    line-height: 16px;
-    -webkit-transform: rotate(
--90deg
-);
-    transform: rotate(
--90deg
-);
-    -ms-transform: rotate(-90deg);
-    -moz-transform: rotate(-90deg);
-    text-align: center;
-    position: fixed;
-    right: -30px;
-    top: 45%;
-    z-index: 999;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+.feedback-btn {
+  height: 35px;
+  width: 110px;
+  line-height: 16px;
+  -webkit-transform: rotate(-90deg);
+  transform: rotate(-90deg);
+  -ms-transform: rotate(-90deg);
+  -moz-transform: rotate(-90deg);
+  text-align: center;
+  position: fixed;
+  right: -30px;
+  top: 45%;
+  z-index: 999;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
-.small-box{
-    height: 30px;
-    width: 70px;
+.small-box {
+  height: 30px;
+  width: 70px;
 }
 
-.price-txt{
-    font-size: 25px;
-    font-weight: 700;
+.price-txt {
+  font-size: 25px;
+  font-weight: 700;
 }
 
-.original-price-txt{
-    font-size: 25px;
-    font-weight: 200;
+.original-price-txt {
+  font-size: 25px;
+  font-weight: 200;
 }
 
-.product-name-txt{
-   color: #2f686b;
-}
-.event-card{
-    height: 40rem;
-    margin-bottom: 10px;
+.product-name-txt {
+  color: #2f686b;
 }
 
-.padding-top50{
-    padding-top: 50px;
+.event-card {
+  height: 40rem;
+  margin-bottom: 10px;
 }
 
-.small-icon{
-    height: 32px;
-    width: 32px;
+.padding-top50 {
+  padding-top: 50px;
 }
 
-.thinline-white{ background-color: #fff;
-    height: 0.1mm;
+.small-icon {
+  height: 32px;
+  width: 32px;
 }
 
-.padding-top75{
-    position: absolute;
-    left: 20px;
-    top: 520px;
+.thinline-white {
+  background-color: #fff;
+  height: 0.1mm;
 }
 
-.feedback-card-img{
-    z-index: -1;
+.padding-top75 {
+  position: absolute;
+  left: 20px;
+  top: 520px;
 }
 
-.feedback-card-txt{
-    z-index: 2;
-    position: absolute;
-    top: 20px;
+.feedback-card-img {
+  z-index: -1;
 }
 
-.thinline-dark{
-    background-color: #6c757d;
-    height: 0.5mm;
+.feedback-card-txt {
+  z-index: 2;
+  position: absolute;
+  top: 20px;
 }
 
-
+.thinline-dark {
+  background-color: #6c757d;
+  height: 0.5mm;
+}
 
 /****************************************************************************** Contact CSS start****************************************************************/
-
-
-
-
-
-
-*{
-     margin: 0;
-     padding:0;
-     box-sizing: border-box;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-.contact-selection{
+.contact-selection {
   width: 100%;
   display: flex;
   justify-content: left;
   align-items: left;
 }
 
-.contact-info{
+.contact-info {
   padding-top: 100px;
- color: ;
- max-width: 500px;
- line-height: 65px;
- padding-left: 50px;
- font-size: 18px;
+  color: ;
+  max-width: 500px;
+  line-height: 65px;
+  padding-left: 50px;
+  font-size: 18px;
 }
 
-.contact-info i{
- margin-right: 20px;
- font-size: 25px;
+.contact-info i {
+  margin-right: 20px;
+  font-size: 25px;
 }
 
-.contact-form{
+.contact-form {
   padding-top: 30px;
- max-width: 700px;
- margin-right: 50px;
+  max-width: 700px;
+  margin-right: 50px;
 }
 
-.contact-info, .contact-form{
- flex-grow: 1;
+.contact-info, .contact-form {
+  flex-grow: 1;
 }
 
-.contact-form h2{
- color: ;
- text-align: center;
- font-size: 35px;
- text-transform: uppercase;
- margin-bottom: 30px;
+.contact-form h2 {
+  color: ;
+  text-align: center;
+  font-size: 35px;
+  text-transform: uppercase;
+  margin-bottom: 30px;
 }
 
-.contact-form  .text-box{
- background: #fff;
- color: black;
- border-color: : black;
- width: calc(50%   -  10px);
- height: 50px;
- padding: 12px;
- font-size: 15;
- border-radius: 5px;
-box-shadow:   0  3px  3px   rgba(0,  0,  0);
- margin-bottom:   20px;
- opacity:  0.9;
+.contact-form .text-box {
+  background: #fff;
+  color: black;
+  border-color: : black;
+  width: calc(50% - 10px);
+  height: 50px;
+  padding: 12px;
+  font-size: 15;
+  border-radius: 5px;
+  box-shadow: 0 3px 3px rgba(0, 0, 0);
+  margin-bottom: 20px;
+  opacity: 0.9;
 }
 
-.contact-form  .text-box:first-child{
- margin-right: 15px;
+.contact-form .text-box:first-child {
+  margin-right: 15px;
 }
 
-.contact-form textarea{
- background: #fff;
- color: #000;
- border-color: black;
- width: 100%;
- padding: 12px;
- font-size: 15px;
- min-height: 200px;
- max-height: 400px;
- resize: vertical;
- border-radius: 3px;
-box-shadow:   0  5px  5px   rgba(0,  0,  0);
- margin-bottom: 20px;
- opacity: 0.9;
+.contact-form textarea {
+  background: #fff;
+  color: #000;
+  border-color: black;
+  width: 100%;
+  padding: 12px;
+  font-size: 15px;
+  min-height: 200px;
+  max-height: 400px;
+  resize: vertical;
+  border-radius: 3px;
+  box-shadow: 0 5px 5px rgba(0, 0, 0);
+  margin-bottom: 20px;
+  opacity: 0.9;
 }
 
-
-.contact-form .sent-btn{
- float: right;
- background: #f59d45;
- color: black;
- border:  none;
- width: 120px;
- height: 40px;
- font-size: 15px;
- font-weight: 600;
- text-transform: uppercase;
- letter-spacing: 2px;
- border-radius: 5px;
- cursor:  pointer;
- transition: 0.3s;
- transition-property: background;
- box-shadow:   0  3px  3px   rgba(0,  0,  0);
+.contact-form .sent-btn {
+  float: right;
+  background: #f59d45;
+  color: black;
+  border: none;
+  width: 120px;
+  height: 40px;
+  font-size: 15px;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 0.3s;
+  transition-property: background;
+  box-shadow: 0 3px 3px rgba(0, 0, 0);
 }
 
-.contact-form .sent-btn:hover{
- background: white;
+.contact-form .sent-btn:hover {
+  background: white;
 }
 
 /*****************************************************************************Footer****************************************************************/
-
-footer{
+footer {
   position: relative;
   bottom: 0;
   padding-top: 45px;
 }
 
-.footer-distributed{
+.footer-distributed {
   background-color: #f8f8ff;
   box-shadow: 0 1px 1px 0 rgba(0, 0, 0);
   box-sizing: border-box;
   width: 100%;
   text-align: left;
   font: bold 16px sans-serif;
-
   padding: 55px 50px;
   margin-top: 80px;
 }
 
 .footer-distributed .footer-left,
 .footer-distributed .footer-center,
-.footer-distributed .footer-right{
+.footer-distributed .footer-right {
   display: inline-block;
   vertical-align: top;
 }
 
-.footer-distributed .footer-left{
+.footer-distributed .footer-left {
   width: 40%;
 }
 
-.footer-distributed h3{
-  color:  black;
-  font: normal 36px ;
+.footer-distributed h3 {
+  color: black;
+  font: normal 36px;
   margin: 0;
 }
 
-.footer-distributed h3 span{
-  color:  #5383d3;
+.footer-distributed h3 span {
+  color: #5383d3;
 }
 
-
-.footer-distributed .footer-links{
-  color:  black;
+.footer-distributed .footer-links {
+  color: black;
   margin: 20px 0 12px;
   padding: 0;
 }
 
-.footer-distributed .footer-links a{
-  display:inline-block;
+.footer-distributed .footer-links a {
+  display: inline-block;
   line-height: 1.8;
   text-decoration: none;
-  color:  inherit;
+  color: inherit;
 }
 
-.footer-distributed .footer-company-name{
-  color:  #8f9296;
+.footer-distributed .footer-company-name {
+  color: #8f9296;
   font-size: 14px;
   font-weight: normal;
   margin: 0;
 }
 
-
-.footer-distributed .footer-center{
+.footer-distributed .footer-center {
   width: 35%;
 }
 
-.footer-distributed .footer-center i{
-  background-color:  white;
+.footer-distributed .footer-center i {
+  background-color: white;
   color: black;
   font-size: 25px;
   width: 38px;
@@ -272,101 +257,225 @@ footer{
   vertical-align: middle;
 }
 
-.footer-distributed .footer-center i.fa-envelope{
+.footer-distributed .footer-center i.fa-envelope {
   font-size: 17px;
   line-height: 38px;
 }
 
-.footer-distributed .footer-center p{
+.footer-distributed .footer-center p {
   display: inline-block;
   color: black;
   vertical-align: middle;
-  margin:0;
+  margin: 0;
 }
 
-.footer-distributed .footer-center p span{
-  display:block;
+.footer-distributed .footer-center p span {
+  display: block;
   font-weight: normal;
-  font-size:14px;
-  line-height:2;
+  font-size: 14px;
+  line-height: 2;
 }
 
-.footer-distributed .footer-center p a{
-  color:  #5383d3;
-  text-decoration: none;;
+.footer-distributed .footer-center p a {
+  color: #5383d3;
+  text-decoration: none;
+  ;
 }
 
-.footer-distributed .footer-right{
+.footer-distributed .footer-right {
   width: 20%;
 }
 
-.footer-distributed .footer-company-about{
+.footer-distributed .footer-company-about {
   line-height: 20px;
-  color:  #92999f;
+  color: #92999f;
   font-size: 13px;
   font-weight: normal;
   margin: 0;
 }
 
-.footer-distributed .footer-company-about span{
+.footer-distributed .footer-company-about span {
   display: block;
-  color:  black;
+  color: black;
   font-size: 14px;
   font-weight: bold;
   margin-bottom: 20px;
 }
 
-.footer-distributed .footer-icons{
+.footer-distributed .footer-icons {
   margin-top: 25px;
 }
 
-.footer-distributed .footer-icons a{
+.footer-distributed .footer-icons a {
   display: inline-block;
   width: 35px;
   height: 35px;
   cursor: pointer;
-  background-color:  white;
+  background-color: white;
   border-radius: 2px;
-  box-shadow:0 0 0 1px black;
-
-
+  box-shadow: 0 0 0 1px black;
   font-size: 20px;
   color: black;
   text-align: center;
   line-height: 35px;
-
   margin-right: 3px;
   margin-bottom: 5px;
 }
 
-
 @media (max-width: 880px) {
-
-  .footer-distributed{
+  .footer-distributed {
     font: bold 14px sans-serif;
-
   }
 
   .footer-distributed .footer-left,
   .footer-distributed .footer-center,
-  .footer-distributed .footer-right{
+  .footer-distributed .footer-right {
     display: block;
     width: 100%;
     margin-bottom: 40px;
     text-align: center;
   }
 
-  .footer-distributed .footer-center i{
+  .footer-distributed .footer-center i {
     margin-left: 0;
   }
+
   .main {
     line-height: normal;
     font-size: auto;
   }
-
 }
+
 /******************************************************************************Footer Ends****************************************************************/
-
-
-
 /****************************************************************************** Contact CSS ENDS****************************************************************/
+
+
+
+
+
+
+/************************************************************************HomePage CSS**************************************************************/
+.home-nav {
+  margin: 27px auto 0;
+  position: relative;
+  width: 1000px;
+  height: 50px;
+  background-color: white;
+  border-radius: 8px;
+  font-size: 0;
+  box-shadow: 5px 4px 7px #48494b;
+}
+
+.home-nav a {
+  line-height: 50px;
+  height: 100%;
+  font-size: 15px;
+  display: inline-block;
+  position: relative;
+  z-index: 1;
+  text-decoration: none;
+  text-transform: uppercase;
+  text-align: center;
+  color: black;
+  cursor: pointer;
+}
+
+.home-nav .animation {
+  position: absolute;
+  height: 100%;
+  top: 0;
+  z-index: 0;
+  transition: all .5s ease 0s;
+  border-radius: 8px;
+}
+
+.home-nav a:nth-child(1) {
+  width: 200px;
+  font-family: 'Merriweather Sans', sans-serif;
+  font-weight: bold;
+}
+
+.home-nav a:nth-child(2) {
+  width: 210px;
+  font-family: 'Merriweather Sans', sans-serif;
+  font-weight: bold;
+}
+
+.home-nav a:nth-child(3) {
+  width: 200px;
+  font-family: 'Merriweather Sans', sans-serif;
+  font-weight: bold;
+}
+
+.home-nav a:nth-child(4) {
+  width: 210px;
+  font-family: 'Merriweather Sans', sans-serif;
+  font-weight: bold;
+}
+
+.home-nav a:nth-child(5) {
+  width: 170px;
+  font-family: 'Merriweather Sans', sans-serif;
+  font-weight: bold;
+}
+
+.home-nav .start-home, a:nth-child(1):hover~.animation {
+  width: 200px;
+  left: 0;
+  background-color: #ffb700;
+}
+
+.home-nav .start-about, a:nth-child(2):hover~.animation {
+  width: 150px;
+  left: 230px;
+  background-color: #faa307;
+}
+
+.home-nav .start-blog, a:nth-child(3):hover~.animation {
+  width: 150px;
+  left: 435px;
+  background-color: #f48c06;
+}
+
+.home-nav .start-portefolio, a:nth-child(4):hover~.animation {
+  width: 210px;
+  left: 610px;
+  background-color: #e85d04;
+}
+
+.home-nav .start-contact, a:nth-child(5):hover~.animation {
+  width: 170px;
+  left: 829.5px;
+  background-color: #e74c3c;
+}
+
+.home-logo img {
+  height: 50px;
+  width: 50px;
+  position: relative;
+  margin-left: 700px;
+  position: absolute;
+  margin-top: 0px;
+}
+
+body {
+  font-size: 12px;
+  font-family: sans-serif;
+  background: white;
+}
+
+.home-header {
+  text-align: center;
+  margin: 40px 0 40px;
+  text-align: center;
+  font-size: 40px;
+  color: black;
+  text-shadow: 0px 0px 0px #000000;
+  font-family: 'Samarkan', sans-serif;
+}
+
+
+/**********************************************************************Homepage-Card_deck-CSS(starts)************************************************************/
+
+/**********************************************************************Homepage-Card_deck-CSS(Ends)************************************************************/
+/***********************************************************************Homepage-CSS-ENDS****************************************************************/
